@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "lato-black";
+  src:url('../fonts/lato-black.woff') format('woff');
+}
+
+@font-face {
+  font-family: "lato-bold";
+  src:url('../fonts/lato-bold.woff2') format('woff2');
+ }
+
+
+@font-face {
+  font-family: "Lato";
+  src:url('../fonts/Lato-Regular.woff') format('woff');
+ }
+
+@font-face {
+    font-family: 'Cabin';
+    src:url('../fonts/Cabin-semibold.woff') format('woff')
+    
+}
+
+html {
+font-family:'Cabin', 'Lato';
+font-size:80px;
+display:block;
+text-align: center;
+background-color:#333;
+margin-left:auto;
+margin-right:auto;
+color: #fff;
+}
+
+h1{
+    font-size:80%;
+    line-height:1.0;
+    margin: 10px;
+    padding: 10px;
+  }
+
+
+h2{
+    font-size:50px;
+    line-height:1.0;
+    padding:10px;  
+    margin: 10px;
+}
+
+h3{
+    font-size:40px;
+}
+
+h4{
+    font-size:.8em;
+}
+
+#title {
+    font-family:'Cabin', 'Lato';
+    font-size:2.0em;
+    text-align:center;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.footer{
+    font-size:18px;
+}
+.dark {
+    text-align:center;
+    background-color:#000;
+    color:#fff;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:auto;
+}
+.light {
+    text-align:center;
+    background-color:#fff;
+    color: #000;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:auto;
+}
+
+.blue {
+    background-color:#41a3dc;
+    width:auto;
+}
+
+.green {
+    background-color:#42b969;
+    font-size:52px;
+}
+
+.red {
+    background-color:#FF0800;
+    font-size:52px;
+}
+
+.yellow {
+    background-color:#FFD300;
+    font-size:52px;
+}
+
+.blackoutline
+{
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+.whiteoutline
+{
+    text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;  
+}
+
+#name {
+    font-size:50px;
+    
+}
+
+#body {
+width:100%;
+}
+
+#blackcabin {
+    font-family: 'Cabin', sans-serif;
+    color:#000;
+    line-height:0.9;
+    
+}
+
+#linkfade a:hover {
+    color:#41a3dc;
+    opacity:.5;
+} 
+
+#cabin {
+    font-family: 'Cabin', sans-serif;
+}
+
+#bcorp {
+    display: block; 
+    float: none; 
+    margin: 0; 
+    padding: 0;
+    width: auto;
+}
+
+a:visited {
+    color:#52b969;
+    opacity:.67;
+}
+
+a:hover {
+    color: #444;
+}
+
+a {
+    color:#52b969;
+    font-size:30px;
+    font-family:'Lato-Bold';
+}
+
+
+#navbar {
+    font-size:40px;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    text-align:center;
+}
